@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worker About me</title>
+    <link rel="stylesheet" href="Aboutme.css">
+</head>
+
+<body>
+    <div class="about_me">
+        <form action="#" method="post">
+            <div class="Mob_Num">
+                <h2>Mobile Number</h2>
+                <hr>
+
+                <div class="Mob_Box">
+
+                    <input type="number" name="MobNum" placeholder="Mobile Number" required>
+
+                </div>
+
+            </div>
+
+            <div class="Mob_Num">
+                <h2>Minimum Order Value (Max 150₹)</h2>
+                <hr>
+
+                <div class="Mob_Box">
+
+                    <input type="number" name="MinOrderVal" placeholder="Min.Order Value" required>
+
+                </div>
+
+            </div>
+            <div class="Mob_Num">
+                <h2>Current Address</h2>
+                <hr>
+
+                <div class="Mob_Box">
+                    <label for="">Street Address</label>
+                    <input type="text" name="street_add" placeholder="Flat/House No./Floor/Building" required>
+                    <input type="text" name="street_add" placeholder="Landmark: Eg. Near Metro Station" required>
+                    <input type="text" name="street_add" placeholder="Colony/Street/Locality" required>
+                </div>
+                <div class="Mob_Box">
+                    <label for="">City</label>
+                    <input type="text" name="City" placeholder="Your City" required>
+
+                </div>
+                <div class="Mob_Box">
+                    <label for="">PinCode</label>
+                    <input type="number" name="Pincode" placeholder="Postal Code" required>
+
+                </div>
+                <div class="Mob_Box">
+                    <label for="">State</label>
+                    <input type="text" name="street_add" placeholder="State" required>
+
+                </div>
+            </div>
+
+            <div class="Mob_Num">
+                <h2>Maximum Serviceable Distance (in kilometres)</h2>
+                <hr>
+
+                <div class="Mob_Box">
+
+                    <input type="number" name="ServiceDistance" placeholder="Max. Serviceable Distance " required>
+
+                </div>
+
+            </div>
+            <div class="Mob_Num">
+                <h2>Registration Amount Paid (₹ 700)</h2>
+                <hr>
+
+                <div class="Mob_Box">
+
+                    <div class="regAmount_details">
+
+                        <input type="radio" name="RegAmount" id="dot-1" value="Paid">
+                        <input type="radio" name="RegAmount" id="dot-2" value="Not Paid">
+
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="AmountType">Paid</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="AmountType">Not Paid Yet</span>
+                            </label>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="Mob_Num">
+                <h2>Vehicle Type</h2>
+                <hr>
+
+                <div class="Mob_Box">
+
+                    <div class="Veh_Details">
+
+                        <input type="radio" name="vehType" id="row-1" value="Bicycle">
+                        <input type="radio" name="vehType" id="row-2" value="Motor Cycle">
+                        <input type="radio" name="vehType" id="row-3" value="Others">
+
+                        <div class="Vehcategory">
+                            <label for="row-1">
+                                    <span class="row one"></span>
+                                    <span class="VehType">Bicycle</span>
+                                </label>
+                            <label for="row-2">
+                                    <span class="row two"></span>
+                                    <span class="vehType">Motor Cycle</span>
+                                </label>
+                            <label for="row-3">
+                                    <span class="row three"></span>
+                                    <span class="VehType">Others</span>
+                                </label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <a href="# ">
+
+                <button type="submit " class="btn " onclick="openPopup() ">Submit</button>
+
+            </a>
+
+        </form>
+    </div>
+
+    <div class="popup" id="popup">
+        <img src="404-tick.png">
+        <h2>Thank You!</h2>
+        <p>Your details has been sucessfully submitted.Thanks!</p>
+        <button type="button " onclick="closePopup() ">OK</button>
+    </div>
+    <script src="Aboutme.js"></script>
+
+</body>
+
+</html>

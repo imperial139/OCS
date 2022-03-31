@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* 
+body {
+    background: grey;
+} */
+
+#logo {
+    margin-left: 20px;
+}
+
+.ocs_nav {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); */
+    /* opacity: 0.9; */
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.ocs_logo {
+    width: 20%;
+    height: 100%;
+    padding: 5px 5px;
+    display: flex;
+}
+
+.ocs_logo>img {
+    border-radius: 50px;
+    height: 43px;
+    width: 42px;
+    margin-top: 3px;
+    margin-left: 70px;
+}
+
+.ocs_logo>span {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 2px;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ocs_nav_input {
+    width: 55%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* background-color: aquamarine; */
+}
+
+.ocs_nav_input>input {
+    width: 75%;
+    border: 0px solid;
+    height: 40px;
+    margin-left: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.ocs_nav_input>button {
+    padding: 13px 12px;
+    margin-left: -35px;
+    background-color: #007cba;
+    border: 0px solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_area {
+    width: 30%;
+    /* background-color: aqua; */
+}
+
+.more_btn>button {
+    margin-top: 12px;
+    float: right;
+    margin-right: 25px;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border-radius: 2px;
+    border: 0px solid transparent;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.more_btn>button>i {
+    margin-left: 2px;
+}
+
+.login_btn>button>a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+.login_btn>button {
+    margin-top: 12px;
+    float: right;
+    margin-right: 35px;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border-radius: 16px;
+    text-decoration: none;
+    border: 0px solid transparent;
+    background-color: rgb(219, 217, 217);
+    color: white;
+    cursor: pointer;
+}
+
+.login_btn>button:hover {
+    text-decoration: none;
+    background-color: rgb(184, 184, 184);
+}
+
+.Downapp_btn>button>span>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* .ad_profile_btn>button>span>a {
+    text-decoration: none;
+    color: white;
+} */
+
+.Downapp_btn>button {
+    margin-top: 12px;
+    float: right;
+    margin-right: 35px;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border-radius: 16px;
+    text-decoration: none;
+    border: 0px solid transparent;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.ad_profile_btn>button {
+    margin-top: 8px;
+    float: right;
+    margin-right: 35px;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border: 0px solid transparent;
+    height: 48px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.ad_profile_btn>button>a>img {
+    margin-top: -16px;
+    float: right;
+    margin-right: -20px;
+    padding: 6px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.Downapp_btn>button:hover {
+    text-decoration: none;
+    background-color: rgb(184, 184, 184);
+}
+
+#search {
+    border-radius: 40px;
+    height: 25px;
+    width: 200px;
+    padding: 12px;
+    font-size: 16px;
+    background: transparent;
+    color: black;
+}
+
+.form i {
+    cursor: pointer;
+    /* margin-left: 2px; */
+}
+
+
+/* //////////////////////////////// */
+
+.ocs_nav2 {
+    position: sticky;
+    top: 57px;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.ocs_nav2_links ul {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 20px;
+}
+
+.ocs_nav2_links ul li {
+    list-style: none;
+    padding: 8px 13px;
+}
+
+.ocs_nav2_links>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#menuside {
+    position: fixed;
+    width: 25px;
+    height: 8px;
+    margin: 25px 0 20px 20px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: rgba(250, 250, 250, 0.3);
+    display: block;
+    border-radius: 5px;
+    transition: 0.4s ease-out;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.navside li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navside li a:hover {
+    font-weight: bold;
+}
+
+.navside li {
+    list-style: none;
+    padding: 16px 20px;
+}
+
+.navside {
+    position: fixed;
+    margin: 140px 20px;
+    margin-top: 90px;
+    transition: 0.3s ease;
+    display: none;
+}
+
+.menuside-bg,
+#menuside-bar {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menuside-bg {
+    z-index: 1;
+    width: 0;
+    height: 100%;
+    margin: 30px 0 20px 20px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 0%;
+    transition: 0.4s ease-in;
+}
+
+#menuside-bar {
+    z-index: 2;
+}
+
+.change-bg {
+    width: 450px;
+    height: 1200px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.4);
+    opacity: 100%;
+    position: fixed;
+    transform: translate(-60%, -30%);
+}
+
+.change .bar {
+    background-color: white;
+}
+
+.change #bar1 {
+    transform: translateY(3px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+    transform: translateY(-3px) rotate(45deg);
+}
+
+.change #bar2 {
+    display: none;
+    opacity: 0.5;
+}
+
+.change {
+    display: block;
+}
+
+.cardbox {
+    top: 60px;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.cardbox .card {
+    position: relative;
+    background: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 7px 25px rgba(16, 17, 17, 0.8);
+}
+
+.cardbox .card .numbers {
+    color: gray;
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.cardbox .card .cardName {
+    color: rgb(94, 83, 83);
+}
+
+.cardbox .card .iconbox {
+    font-size: 2.5em;
+    color: rgb(4, 107, 190);
+}
+
+.details {
+    top: 70px;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.details .recentOrders {
+    display: grid;
+    position: relative;
+    min-height: 530px;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(16, 17, 17, 0.8);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cardHeader h2 {
+    font-weight: 600;
+}
+
+.btn {
+    position: relative;
+    padding: 5px 10px;
+    color: wheat;
+    background: #007cba;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.details table thead td {
+    font-weight: 600;
+}
+
+.details .recentOrders table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.details .recentOrders table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.details .recentOrders table tbody tr:hover {
+    background: #007cba;
+    color: aliceblue;
+}
+
+.details .recentOrders table thead tr td {
+    padding: 20px 5px;
+}
+
+.details .recentOrders table thead tr td:last-child,
+.details .recentOrders table tbody tr td:last-child {
+    text-align: right;
+}
+
+.details .recentOrders table thead tr td:nth-child(2),
+.details .recentOrders table tbody tr td:nth-child(2) {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.details .recentOrders table thead tr td:nth-child(3),
+.details .recentOrders table tbody tr td:nth-child(3) {
+    text-align: center;
+}
+
+.status {
+    position: relative;
+    padding: 2px 4px;
+    color: wheat;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.Completed {
+    background: green;
+}
+
+.Pending {
+    background: greenyellow;
+}
+
+.Cancelled {
+    background: red;
+}
+
+.InProgress {
+    background: #007cba;
+}
+
+.details .recentCustomers {
+    position: relative;
+    min-height: 530px;
+    background: white;
+    padding: 20px;
+    display: grid;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(16, 17, 17, 0.8);
+}
+
+.details .recentCustomers table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.details .recentCustomers table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.details .recentCustomers table thead tr td:nth-child(2),
+.details .recentCustomers table tbody tr td:nth-child(2) {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.td-img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.td-img img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tdcnt a {
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recentCustomers .fa {
+    font-size: 20px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 40px;
+    color: black;
+}

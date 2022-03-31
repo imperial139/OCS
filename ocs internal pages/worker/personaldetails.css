@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    background: rgb(177, 171, 171);
+}
+
+.personal_details hr {
+    border: 1px solid green;
+    margin-bottom: 30px;
+}
+
+.personal_details {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 80%;
+    height: 80vh;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 5px 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.personal_details h2 {
+    letter-spacing: 2px;
+    color: black;
+    margin-top: 0px;
+    display: flex;
+    font-size: 34px;
+    background: rgba(0, 0, 0, 0.09);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+form {
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+
+.worker-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    font-size: 26px
+}
+
+.worker-box label {
+    font-weight: 300;
+}
+
+.worker-box input {
+    margin: -10px 30px;
+    padding: 15px 150px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.gender-details .gender-title {
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+    margin-top: 6px;
+    margin-left: -85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender-details .category {
+    display: flex;
+    width: 34%;
+    margin: 4px 0;
+    justify-content: center;
+}
+
+.gender-details .category label {
+    display: flex;
+    align-items: center;
+}
+
+.gender-details .category label span {
+    margin: 0 2px;
+    color: black;
+    font-size: 26px;
+}
+
+.gender-details .category .dot {
+    height: 24px;
+    width: 24px;
+    padding: 4px 4px;
+    cursor: pointer;
+    background: rgb(185, 174, 174);
+    border-radius: 50%;
+    margin-left: 80px;
+    border: 5px solid transparent;
+}
+
+.gender-details input[type="radio"] {
+    display: none;
+}
+
+#dot-1:checked~.category .one,
+#dot-2:checked~.category .two {
+    border-color: rgb(158, 149, 149);
+    background-color: black;
+}
+
+.adhar_add h2 {
+    letter-spacing: 2px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 34px;
+    background: rgba(0, 0, 0, 0.09);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.adhar_add hr {
+    border: 1px solid green;
+    margin-bottom: 30px;
+}
+
+.adhar_add .adhar_box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    font-size: 26px
+}
+
+.adhar_add .adhar_box input {
+    margin: 20px 30px;
+    padding: 15px 20px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.adhar_add h3 {
+    font-size: 24px;
+    color: red;
+    font-weight: 400;
+}
+
+.popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transfrom 0.4s, top 0.4s
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.personal_details button {
+    background: #007cba;
+    color: white;
+    font-size: 24px;
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.personal_details button:hover {
+    font-size: 26px;
+    background: green;
+    color: white;
+    font-weight: 600;
+    font-style: bold;
+}

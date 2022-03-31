@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Rate</title>
+    <link rel="stylesheet" href="servicerate.css">
+</head>
+
+<body>
+    <div class="head blur" style="display:none;">
+        <h1>Service Rate</h1>
+    </div>
+    <div class="popup blur" id="pop">
+
+        <h2>Select your Services</h2>
+        <hr>
+        <form id="popupoption">
+            <div class="onlinepopup">
+                <input type="checkbox" style="margin-left: 8px;" id="takenBefore1" class="checkbox" placeholder="carpenter" value="car" onclick="ShowHideDiv()">
+                <label for="takenBefore">Quick Book - Carpenter</label> <br></div>
+            <div class="onlinepopup"> <input style="margin-left: -170px;" type="checkbox" id="takenBefore2" placeholder="carpenter" value="pumber" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Window</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: 50px;" type="checkbox" id="takenBefore3" placeholder="carpenter" value="elec" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Fitting & Minor Installations</label><br></div>
+            <div class="onlinepopup"><input style="margin-left: -206px;" type="checkbox" id="takenBefore4" placeholder="carpenter" value="salon" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Door</label><br></div>
+            <div class="onlinepopup"><input style="margin-left: -206px;" type="checkbox" id="takenBefore5" placeholder="carpenter" value="haha" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Lock</label><br> </div>
+            <div class="onlinepopup"><input style="margin-left: -28px;" type="checkbox" id="takenBefore6" placeholder="carpenter" value="polic" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Drawer & Cupboard</label><br></div>
+            <div class="onlinepopup"><input style="margin-left: -94px;" type="checkbox" id="takenBefore7" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Curtain Blinds</label><br></div>
+            <div class="onlinepopup"><input style="margin-left:-30px;" type="checkbox" id="takenBefore8" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Furniture Assembly</label><br></div>
+            <div class="onlinepopup"><input style="margin-left: -130px;" type="checkbox" id="takenBefore9" p9laceholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Pesticides</label><br></div>
+            <div class="onlinepopup"><input style="margin-left: -26px;" type="checkbox" id="takenBefore10" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Furniture Repairing</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: -106px;" type="checkbox" id="takenBefore11" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Drill & Hang</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: -200px;" type="checkbox" id="takenBefore12" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Bed</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: 116px;" type="checkbox" id="takenBefore13" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Quick Book - Cleaning services</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: -96px;" type="checkbox" id="takenBefore14" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Car Washing</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: -48px;" type="checkbox" id="takenBefore15" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Kitchen Cleaning</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: -20px;" type="checkbox" id="takenBefore16" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Bathroom Cleaning</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: 140px;" type="checkbox" id="takenBefore17" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Sofa, Cushion & Carpet Cleaning</label><br></div>
+            <div class="onlinepopup"> <input style="margin-left: -62px;" type="checkbox" id="takenBefore18" placeholder="carpenter" class="checkbox" onclick="ShowHideDiv()">
+                <label for="takenBefore">Home Cleaning</label><br></div>
+        </form>
+        <button class="popupbtn" id="close" onclick="checkCheckbox()">
+           <span class="shadow"></span>
+           <span class="edge"></span>
+           <span class="front text"> Submit
+           </span>
+         </button>
+        <!-- <button id="close">Submit</button> -->
+    </div>
+
+    <div class="main blur">
+
+        <div id="text1" class="all">
+            <div class="check1" id="alll">
+                <h3>Carpenter</h3>
+            </div>
+
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+
+        <div id="text" class="all">
+            <div class="check" id="alll">
+                <h3>pumber</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text3" class="all">
+            <div class="check3" id="alll">
+                <h3>salon</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text4" class="all">
+            <div class="check4" id="alll">
+                <h3>electricity</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text5" class="all">
+            <div class="check5" id="alll">
+                <h3>funiture</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text6" class="all">
+            <div class="check6" id="alll">
+                <h3>painting</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text7" class="all">
+            <div class="check7" id="alll">
+                <h3>bhemmmm</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text8" class="all">
+            <div class="check8" id="alll">
+                <h3>doreamon</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text9" class="all">
+            <div class="check9" id="alll">
+                <h3>9tirle</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text10" class="all">
+            <div class="check10" id="alll">
+                <h3>10tirlr</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text11" class="all">
+            <div class="check11" id="alll">
+                <h3>11tirle</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text12" class="all">
+            <div class="check12" id="alll">
+                <h3>12tirle</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text13" class="all">
+            <div class="check13" id="alll">
+                <h3>13tirle</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+        <div id="text14" class="all">
+            <div class="check14" id="alll">
+                <h3>14tiel</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+
+
+        <div id="text15" class="all">
+            <div class="check15" id="alll">
+                <h3>15tiel</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle    </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+
+        <div id="text16" class="all">
+            <div class="check16" id="alll">
+                <h3>16tiel</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle  </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+
+        <div id="text17" class="all">
+            <div class="check17" id="alll">
+                <h3>17tiel</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle  </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span> company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+
+
+        <div id="text18" class="all">
+            <div class="check18" id="alll">
+                <h3>18tiel</h3>
+            </div>
+            <div class="oneline"> <label for="subtilr">subtitle  </label> <input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+                <label for="subtilr">subtitle   </label><input type="text" name="text" id="charge" placeholder="your rate">
+                <span>company Rate</span> -> 499/-<br>
+            </div>
+        </div>
+
+        <button class="cta" style="display: none;" type="submit" value="submit">
+    <span class="shadow"></span>
+    <span class="edge"></span>
+    <span class="front text"> Submit
+    </span>
+  </button>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="servicerate.js"></script>
+</body>
+
+</html>
